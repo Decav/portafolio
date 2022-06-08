@@ -6,9 +6,9 @@ import { ConocimientoContent } from './ConocimientoContent';
 const Conocimientos = () => {
   return (
     <div className='container mt-5'>
-      <div className="row justify-content-center">
-        <div className="col-8">
-          <div className='contenedor' style={{"height": "650px", "width":"50%"}} >
+      <div className="row justify-content-center ">
+        <div className="col-8 mt-5">
+          <div className='contenedor' style={{"height": "70%", "width":"50%"}} >
             <div className='table-responsive bg-light bg-opacity-25 card shadow text-light'>
               <h4 className='display-6 m-3'>Conocimientos</h4>
               <table className='table table-bordered'>

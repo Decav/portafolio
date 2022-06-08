@@ -3,12 +3,10 @@ import React from 'react'
 const Inicio = () => {
   return (
     <div className='container mt-5'>
-      <div class="row">
-        <div class="col-6">
-          
-        </div>
-        <div class="col-12">
-          <div className='contenedor' style={{"height": "700px"}}>
+      <div class="row justify-content-center">
+        
+        <div class="col-10" >
+          <div className='contenedor' style={{"height": "80%", "width":"60%"}}>
             <div className='bg-light bg-opacity-25 card shadow text-light'>
               <div className='card-body'>
                 <div className='row'>
@@ -60,9 +58,6 @@ const Inicio = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-6">
-          
         </div>
       </div> 
     </div>
