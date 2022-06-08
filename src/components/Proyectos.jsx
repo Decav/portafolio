@@ -228,7 +228,7 @@ const Proyectos = () => {
                         <FaIcons.FaGithub /> Repositorio Proyecto_MusicApp{" "}
                       </a>
                     </div>
-                    <div className="col-lg col-md col-12">
+                    <div className="col-lg col-md col-12" style={{ width: "100%" }}>
                       <div className="row justify-content-center">
                         <div
                           id="carouselExampleIndicators1"
@@ -364,7 +364,7 @@ const Proyectos = () => {
                         <FaIcons.FaGithub /> Repositorio Proyecto_Vic2{" "}
                       </a>
                     </div>
-                    <div className="col-lg col-md col-12">
+                    <div className="col-lg col-md col-12" style={{ width: "100%" }}>
                       <div
                         id="carouselExampleIndicators2"
                         class="carousel slide"
