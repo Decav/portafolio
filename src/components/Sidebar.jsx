@@ -13,8 +13,8 @@ function Sidebar() {
       <nav class="main-menu">
             <ul>
                 <li>
-                    <div>
-                        <i className='fa fa-2x'><FaIcons.FaUser></FaIcons.FaUser></i>
+                    <div className=''>
+                        <i className='fa fa-2x'> <img src="acl_logo.png" alt="" style={{"width": "35px"}} /></i>
                         <span className='nav-text'>
                             Diego Canelo Vigny
                         </span>
