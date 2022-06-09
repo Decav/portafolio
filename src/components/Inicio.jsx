@@ -4,14 +4,14 @@ const Inicio = () => {
   return (
     <div className='container mt-5'>
       <div class="row justify-content-center">
-        
+
         <div class="col-10" >
-          <div className='contenedor' style={{"height": "80%", "width":"60%"}}>
+          <div className='contenedor' style={{ "height": "80%", "width": "60%" }}>
             <div className='bg-light bg-opacity-25 card shadow text-light'>
               <div className='card-body'>
                 <div className='row'>
                   <div className='col-12 col-md-12 col-lg-6'>
-                    <img style={{"height": "auto","width": "90%" }} src="https://cdn.discordapp.com/attachments/729827578784776232/982838194083090473/unknown.png" alt="" />
+                    <img style={{ "height": "auto", "width": "90%" }} src="https://cdn.discordapp.com/attachments/729827578784776232/982838194083090473/unknown.png" alt="" />
                   </div>
                   <div className="col">
                     <h1 className='display-4 mt-3'>Diego Alfredo Canelo Vigny</h1>
@@ -33,8 +33,8 @@ const Inicio = () => {
                   <h4>Técnico universitario en informática</h4>
                   <h6 className='ms-5'>Universidad Técnica Federico Santa María</h6>
                   <h4>Técnico nivel medio en electrónica</h4>
-                  <h6 className='ms-5'>Colegio Diego echeverria castro</h6>
-                </div> 
+                  <h6 className='ms-5'>Colegio Diego Echeverria Castro</h6>
+                </div>
               </div>
             </div>
             <div className='bg-light bg-opacity-25 card shadow text-light mt-2'>
@@ -59,7 +59,7 @@ const Inicio = () => {
             </div>
           </div>
         </div>
-      </div> 
+      </div>
     </div>
   )
 }
