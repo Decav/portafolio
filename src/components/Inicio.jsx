@@ -50,10 +50,10 @@ const Inicio = () => {
                   <h6 className='ms-5'>Empresa: B2K Computación</h6>
                   <h6 className='ms-5'>Función: revisión y mantención de Hardware</h6>
                   <h6 className='ms-5'>Duración: Diciembre 2019 - Febrero 2020</h6>
-                  <h5 className='mt-4'>Trabajo media jornada en supermercado como empaque</h5>
+                  {/* <h5 className='mt-4'>Trabajo media jornada en supermercado como empaque</h5>
                   <h6 className='ms-5'>Empresa: Santa Isabel</h6>
                   <h6 className='ms-5'>Función: Empaquetador</h6>
-                  <h6 className='ms-5'>Duración: Julio 2018 - Julio 2019</h6>
+                  <h6 className='ms-5'>Duración: Julio 2018 - Julio 2019</h6> */}
                 </div>
               </div>
             </div>
