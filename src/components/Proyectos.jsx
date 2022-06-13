@@ -467,8 +467,8 @@ const Proyectos = () => {
                   <div className="row m-5">
                     <div className="col-lg-4 col-md-12 col-12">
                       <p className="">
-                        Aplicacion informativa sobre un juego, desarrollada en el framework Flutter.
-                        La idea de la aplicacion es poder mostrar datos e informacion de interes sobre el juego.
+                        Aplicación informativa sobre un juego, desarrollada en el framework Flutter.
+                        La idea de la aplicación es poder mostrar datos e información de interés sobre el juego.
 
                       </p>
                       <div className="bg-light bg-opacity-25 card table-responsive">
