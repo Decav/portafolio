@@ -53,6 +53,20 @@ const Proyectos = () => {
                     Vic2
                   </button>
                 </li>
+                <li className="nav-item" role="presentation">
+                  <button
+                    className="nav-link link-light"
+                    id="appimpact-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#appimpact-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="appimpact-tab-pane"
+                    aria-selected="false"
+                  >
+                    AppImpact
+                  </button>
+                </li>
               </ul>
               <div className="tab-content" id="myTabContent">
                 <div
@@ -443,7 +457,130 @@ const Proyectos = () => {
                     </div>
                   </div>
                 </div>
+                <div
+                  className="tab-pane fade"
+                  id="appimpact-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="appimpact-tab"
+                  tabindex="0"
+                >
+                  <div className="row m-5">
+                    <div className="col-lg-4 col-md-12 col-12">
+                      <p className="">
+                        Aplicacion informativa sobre un juego, desarrollada en el framework Flutter.
+                        La idea de la aplicacion es poder mostrar datos e informacion de interes sobre el juego.
+
+                      </p>
+                      <div className="bg-light bg-opacity-25 card table-responsive">
+                        <table className="table">
+                          <h5 className="display-6">Herramientas</h5>
+                          <tbody>
+                            <tr>
+                              <th>
+                                Flutter <SiIcons.SiFlutter />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th>
+                                Android Studio <SiIcons.SiAndroidstudio />
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <a
+                        target={"_blank"}
+                        rel="noreferrer"
+                        href="https://github.com/Decav/AppImpact"
+                        className="nav-link text-light"
+                      >
+                        <FaIcons.FaGithub /> Repositorio Proyecto_AppImpact{" "}
+                      </a>
+                    </div>
+                    <div className="col-lg col-md col-12" style={{ width: "100%" }}>
+                      <div className="row justify-content-center">
+                        <div
+                          id="carouselExampleIndicators3"
+                          class="carousel slide"
+                          data-bs-ride="true"
+                          style={{ width: "50%" }}
+                        >
+                          <div class="carousel-indicators">
+                            <button
+                              type="button"
+                              data-bs-target="#carouselExampleIndicators3"
+                              data-bs-slide-to="0"
+                              class="active"
+                              aria-current="true"
+                              aria-label="Slide 1"
+                            ></button>
+                            <button
+                              type="button"
+                              data-bs-target="#carouselExampleIndicators3"
+                              data-bs-slide-to="1"
+                              aria-label="Slide 2"
+                            ></button>
+                            <button
+                              type="button"
+                              data-bs-target="#carouselExampleIndicators3"
+                              data-bs-slide-to="2"
+                              aria-label="Slide 3"
+                            ></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img
+                                src="https://media.discordapp.net/attachments/729827578784776232/985926121994461184/unknown.png?width=340&height=478"
+                                class="d-block w-100"
+                                alt="..."
+                              />
+                            </div>
+                            <div class="carousel-item">
+                              <img
+                                src="https://media.discordapp.net/attachments/729827578784776232/985926237023244338/unknown.png?width=340&height=478"
+                                class="d-block w-100"
+                                alt="..."
+                              />
+                            </div>
+                            <div class="carousel-item">
+                              <img
+                                src="https://media.discordapp.net/attachments/729827578784776232/985926328245190686/unknown.png?width=340&height=478"
+                                class="d-block w-100"
+                                alt="..."
+                              />
+                            </div>
+                          </div>
+                          <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators3"
+                            data-bs-slide="prev"
+                          >
+                            <span
+                              class="carousel-control-prev-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators3"
+                            data-bs-slide="next"
+                          >
+                            <span
+                              class="carousel-control-next-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
+
             </div>
           </div>
         </div>
